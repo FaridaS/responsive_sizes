@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	div {
+		border:1px solid gray;
+		
+	} 
+	 
+
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+
+function galereya(myWidth,sayi){
+	document.write('<div style="width:'+myWidth+'px; height: auto;">');
+	for(i=1;i<=12;i++){
+	document.write('<img src="img/img.jpg" style="width:'+myWidth/sayi+'px; height:'+myWidth/sayi+'">') }
+
+
+	document.write('</div>');
+}
+galereya(800,10);
+</script>
+</body>
+</html>
